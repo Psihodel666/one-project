@@ -363,57 +363,19 @@ header ul li{
 	height: 865px;
 }
 .slider{
-	width: 958px;
-	height: 400px;
-	margin:0 auto;
-	margin-top: 100px;
+	max-width: 40%;
+	max-height: 50%;
+	position: relative;
 
+	margin:0 15px;
+	border: solid 10px #f4f4f4;
 }
-#viewport {
-    width: 100%;
-    display: table;
-    position: relative;
-    overflow: hidden;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
+.slider img{
+	max-width: 100%;
+	max-height: 100%;
 }
- 
-#slidewrapper {
-    position: relative;
-    width: calc(100% * 3);
-    height: 500px;
-    top: 0;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    -webkit-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s;
-    -webkit-transition-timing-function: ease-in-out;
-    -o-transition-timing-function: ease-in-out;
-    transition-timing-function: ease-in-out;
-
-}
-.img_slide{
-	max-width: 45%;
-	height: 100%;
-
-}
-
-.text_slide{
-	max-width: 37%;
-	height: 100%;
-}
-#sliderwrapper ul, #sliderwrapper li{
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
-#slidewrapper li {
-    width: calc(100%/3);
-    list-style: none;
-    display: inline-block;
+.slide p{
+	float: right;
+	width: 35%;
+	position: relative;   
 }
