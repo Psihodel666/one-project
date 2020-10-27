@@ -4,12 +4,48 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style\bootstrap.min.css">
-	<link rel="stylesheet"  href="style\style.css">
-
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css"  href="style\style.css">
+	<link rel="stylesheet" type="text/css" href="style\responsive.css">
 	<title>Document</title>
 </head>
 <body>
-	<header>
+<div class="wrap">
+
+
+
+<nav class="mobile_menu fixed-top">
+	<a class="logo" href="#"></a>
+	<div class="dropdown">
+	  <button onclick="myFunction()" class="dropbtn">Menu</button>
+	  <div id="myDropdown" class="dropdown-content">
+	    <a href="#">Home</a>
+	    <a href="#">Blog</a>
+	    <a href="#">Pricing</a>
+	    <a href="#">Documentation</a>
+	    <ul>
+	    	<li><a href="#"><img src="style\img\icon\f.png" alt="Fu"></a></li>
+			<li><a href="#"><img src="style\img\icon\t.png" alt="Fu"></a></li>				
+			<li><a href="#"><img src="style\img\icon\tw.png" alt="Fu"></a></li>
+			<li><a href="#"><img src="style\img\icon\path.png" alt="Fu"></a></li>
+	    </ul>
+	  </div>
+	</div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+	<header >
+
+
 		<a href="#" class="logo"></a>
 		<nav class="header_link">
 			<ul>
@@ -34,6 +70,7 @@
 	</header>
 
 	<div class="content" >
+
 		<div class="text_content">
 			<h4>plan your life</h4>
 			<h1>Increase your <span>productivity</span></h1>
@@ -42,6 +79,9 @@
 		</div>
 	</div>
 
+
+
+<div class="logo_compain_wrap">
 	<div class="logo_compain">
 		<ul>
 			<li><img src="style\img\logo_compain\bitbucker.png" alt=""></li>
@@ -52,6 +92,8 @@
 		
 		</ul>
 	</div>
+</div>
+
 
 	<div class="content_plan">
 		<div class="plan">
@@ -121,8 +163,8 @@
 
 	<div class="statistic">
 		<div class="stat_left">
-			<img src="" alt="" class="img_stat">
 			<div class="number_left_stat">
+			<img src="style/img/1.png" alt="" class="img_stat">
 				<h5>89%</h5>
 				<p> Customers who have increased their productivity</p>	
 			</div>
@@ -130,7 +172,7 @@
 		</div>
 
 		<div class="stat_right">
-			<img src="" alt="" class="img_stat2">
+			<img src="style/img/peaple.png" alt="" class="img_stat2">
 			<div class="number_right_stat">
 				<h5>3123</h5>
 				<p>Users who have used our <br>application</p>
@@ -322,7 +364,7 @@
 
 <footer>
 	<div class="nav_footer">
-		<a href="#" class="logo"></a>
+		
 			<nav class="header_link">
 				<ul>
 					<li></li>
@@ -349,17 +391,15 @@
 
 
 <!-- Подключаем jQuery -->
+  			 <!-- Подключаем jQuery -->
   			  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  			  <!-- js Slider -->
+    <!-- Подключаем Bootstrap JS -->    
+   			 <script src="js/bootstrap.min.js"></script>
+    		<script src="js/dropdown.js"></script>
+   			 <script type="text/javascript" src='js/main.js'></script>
 
-  			  <script src="js\bootstrap.min.js"></script>
-
-  			  <script src="js\animation.js"></script>
-  			<!-- js bg -->
-
-			<script src='js/main.js'></script>
-
+</div>
 
 
 </body>

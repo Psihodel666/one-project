@@ -1,4 +1,4 @@
-@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
 body{
 	margin:0;
 	padding: 0;
@@ -19,6 +19,56 @@ header{
 button{
 	font-family: Quicksand, sand-sarif;
 }
+
+.mobile_menu{
+	display: none;
+}
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+	background-color: #ddd
+}
+.show {
+	display:block;
+}
+
+
+
+
+
+
+header{
+	opacity: 0.9;
+}
+
 .logo{
 	width: 26px;
 	height: 26px;
@@ -36,8 +86,6 @@ header ul li{
 }
 .header_link{
 	font: Quicksand; 
-}
-.icons_link{
 
 }
 .icons_link button{
@@ -48,12 +96,15 @@ header ul li{
 	border-radius: 2px;
 	border:none;
 }
-
+.bg_content{
+	position: absolute;
+}
 
 .content{
-	max-width: 1980px;
-	max-height: 700px;
-	background-image: url(img\bg1.png);
+	max-width: 100%;
+	max-height: 100%;
+
+	background-image: url(img/bg/bg1.png);
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
@@ -125,7 +176,7 @@ header ul li{
 	max-width: 100%;
 	height: 145px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 }
 .logo_compain ul li{
@@ -170,7 +221,9 @@ header ul li{
 }
 .button_plan{
 	font-size: 0;
-	padding-top: 79px;
+	margin-top: 79px;
+	display: flex;
+	align-self: baseline;
 }
 .button_plan .button_one{
 	background-color: #4C85FF;
@@ -189,6 +242,13 @@ header ul li{
 	background: rgba(0, 0, 0, 0);
 	border:solid 1px #ADB4D2;
 	border-radius: 2px;
+}
+
+
+/*----------------------------------Button two text----------------------------------------------*/
+.button_plan .button_two a{
+	color: #007bff;
+	font-size: 16px;
 }
 .illustration{
 	max-width: 50%;
@@ -219,6 +279,7 @@ header ul li{
 	font-weight: 500;
 	font-family: Quicksand;
 	color:#3D4F9F;
+	padding-bottom: 82px;
 }
 .about p{
 	width: 547px;
@@ -304,6 +365,16 @@ header ul li{
 	align-content: center;
 	justify-content: center;
 }
+.statistic img{
+	width: 10%;
+	height: 20%;
+	margin-top: 50px;
+}
+.number_left_stat img{
+	width: 27%;
+	height: 20%;
+	margin-left: 171px;
+}
 .stat_left{
 	flex-grow:1;
 	height: 342px;
@@ -379,6 +450,7 @@ header ul li{
 	font-size: 24px;
 	font-weight: bold;
 	font-family: Quicksand;
+	padding-bottom: 95px;
 }
 .position_slide{
 	margin-left: 50%;
@@ -396,8 +468,9 @@ header ul li{
 	margin:0 0px;
 	border: 1px solid #D8E3FE;
 	box-sizing: border-box;
-	box-shadow: 0px 15px 50px
+	box-shadow: 0px 15px 50px;
 	background:#ffffff;
+
 }
 .slider img{
 	max-width: 100%;
@@ -421,7 +494,7 @@ header ul li{
 	width: 35%;
 	position: relative; 
 	color: #3D4F9F;
-	font-size: 36px;
+	font-size: 32px;
 	line-height: 45px;
 	font-family: Quicksand;
 }
@@ -697,7 +770,7 @@ header ul li{
     font-size: 13px;
     color: #C7D3FF;
     font-family: Quicksand;	
-    text-align: center;font-size: 13px;
+	text-align: center;
 }
 
 
@@ -766,6 +839,9 @@ header ul li{
 	justify-content: space-around;
 	align-items: center;
 }
+.nav_footer ul{
+	margin-right: 175px;
+}
 footer ul li{
 	display: inline;
 	padding-left: 35px;
@@ -778,9 +854,17 @@ footer p{
 	font-weight: 500;
 	font-size: 12px;
 	line-height: 15px;
-	margin-left: 15%;
+	margin-left: 10%;
 	}
 
 
 
-	
+
+
+
+
+
+
+.fixed-top{
+	width: 100%;
+}

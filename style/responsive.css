@@ -1,0 +1,223 @@
+
+@media only screen  and (max-width: 1361px){
+	
+	.content{
+
+	}
+	.logo_compain ul li{
+		padding-left: 45px;
+	}
+
+	.illustration{
+		max-width: 55%;
+	}
+	.or{
+		padding-left: 55px;
+	}
+	.slider{
+		min-width: 150%;
+		margin-left: -140px;
+	}
+	.slide h5{
+		font-size: 28px;
+	}
+	.text_cust{
+		margin-left: 3%;
+	}
+	.block_collapse{
+		margin-left: 7%;
+	}
+	.block_collapse {
+		max-width: 77%;
+	}
+	.btn_in_card{
+
+		margin-right: 100px;
+	}
+	.card-body{
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+@media only screen  and (max-width: 790px){
+	.mobile_menu{
+		display: block;
+	}
+	.dropdown{
+		float: right;
+		margin: 5px 5px 0 0;
+	}
+	.dropdown-content {
+		margin-left: -87px;
+		opacity: 0.8;
+	}
+	.logo{
+		margin-top: 10px;
+	}
+	header{
+		display: none;
+	}
+	.logo_compain ul li{
+		padding-left: 35px;
+	}
+	.logo_compain ul{
+		padding-left: 11px;
+	}
+	.logo_compain img{
+		width: 13%;
+	}
+	.content_plan{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		align-content: center;
+	}
+	.illustration{
+		max-width: 100%;
+	}
+	.illustration img{
+		height: 500px;
+
+	}
+
+	.slider{
+		width: 100%;
+		height: 525px;
+		margin-left: -89px;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		align-content: center;
+		align-items: center;
+	}
+	.slider img{
+		width: 100%;
+	}
+	.slider h5{
+		padding-top: 228px;
+		width: 100%;
+		padding-left: 221px;
+	}
+	.slider p{
+		width: 100%;
+		padding-top: 173px;
+		padding-left: 200px;
+	}
+
+	.position_slide{
+
+	}
+	.cust_wrap{
+		display: flex;
+		flex-direction: column;
+	}
+	.text_cust{
+		width: 100%;
+		margin-left: 11%;
+		padding-top: 7%;
+	}
+	.text_cust h2, .text_cust h4, .text_cust p{
+		width: 158%;
+		text-align: center;
+	}
+	.text_cust h2{
+		padding-top: 0;
+	}
+	.cust_photo{
+		width: 100%;
+		margin-left: -27%;
+
+	}
+
+	.plan_life p{
+		width: 77%;
+	}
+
+	.form_txt{
+		margin-left: 3%;
+	}
+
+	.form_block{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.my_form_wrap{
+		padding-top: 33px;
+	}
+	.nav_footer{
+		flex-wrap: wrap;
+	}
+	.nav_footer .header_link{
+		font-size: 14px;
+	}
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-device-width: 376px){
+
+	.wrap{
+		width: 160%;
+	}
+	.logo_compain ul li{
+		padding-left: 27px;
+	}
+	.plan{
+		text-align: center;
+		max-width: 100%;
+	}
+	.button_plan{
+		padding-left: 88px;
+	}
+
+	.about{
+		height: 647px;
+	}
+	.about_button .left{
+		left: 29%;
+
+	}
+	.about_button .right{
+		left: 56%;
+	}
+	.or{
+		padding-left: 22px;
+		padding-top: 10px;
+	}
+	.slider {
+		height: 565px;
+	}
+	.slider_block h2{
+		padding-bottom: 21px;
+	}
+
+	.slider_block h4 {
+		padding-top: 98px;
+	}
+	.cust_photo_text {
+		margin: 0 0 0 255px;
+	}
+	.form_txt{
+		margin-left: -1%;
+		width: 60%;
+	}
+
+	.my_form {
+		width: 137%;
+		margin-left: -51px;
+	}
+}
